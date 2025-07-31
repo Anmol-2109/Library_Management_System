@@ -1,0 +1,22 @@
+LibraryManagementSystem/
+├── main.cpp
+├── Book/                  # Book base class and derived types
+│   ├── Book.hpp
+│   ├── EBook.hpp
+│   └── HardCopy.hpp
+├── User/                  # User base class and derived types
+│   ├── User.hpp
+│   ├── Member.hpp
+│   └── Owner.hpp
+├── Library/               # Library Singleton and management logic
+│   ├── Library.hpp
+│   └── Library.cpp
+├── Strategy/              # Search strategy pattern
+│   ├── SearchStrategy.hpp
+│   ├── SearchByTitle.hpp
+│   ├── SearchByAuthor.hpp
+│   └── SearchByISBN.hpp
+├── Factory/               # Partial factory for book creation
+│   └── BookFactory.hpp
+└── utils/                 # Utility helpers
+    └── Validator.hpp
